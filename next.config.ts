@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  output: 'export', // ✅ 必须加这个才能用 next export
 };
 
 export default nextConfig;
