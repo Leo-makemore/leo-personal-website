@@ -1,2 +1,25 @@
+# 依赖/构建
 node_modules/
 .next/
+out/
+dist/
+build/
+.turbo/
+.turbopack/
+.cache/
+.eslintcache
+*.tsbuildinfo
+
+# Vercel
+.vercel/
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# 系统/编辑器
+.DS_Store
+.idea/
+.vscode/
+Thumbs.db
